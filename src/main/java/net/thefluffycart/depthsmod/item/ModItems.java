@@ -13,6 +13,9 @@ public class ModItems {
     public static final Item LUCIFERIN_SACK = registerItem("luciferin_sack",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item GLOWSHROOM = registerItem("glowshroom",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     private static Item registerItem(String name, Item item)
     {
         return Registry.register(Registry.ITEM, new Identifier(SunkenDepthsMod.MOD_ID, name), item);

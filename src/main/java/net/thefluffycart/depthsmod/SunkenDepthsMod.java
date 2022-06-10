@@ -1,6 +1,7 @@
 package net.thefluffycart.depthsmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.thefluffycart.depthsmod.block.ModBlocks;
 import net.thefluffycart.depthsmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,6 @@ public class SunkenDepthsMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
-
+		ModBlocks.registerModBlocks();
 	}
 }
