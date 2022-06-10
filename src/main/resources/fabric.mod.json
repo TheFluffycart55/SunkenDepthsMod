@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "depthsmod",
+  "version": "1.18.2",
+
+  "name": "The Sunken Depths",
+  "description": "Whether it be deep in the ocean, or above the waves, this mod guarantees to bring something new to your aquatic life",
+  "authors": [
+    "TheFluffycart55"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.thefluffycart.depthsmod.SunkenDepthsMod"
+    ]
+  },
+  "mixins": [
+    "depthsmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
